@@ -1,0 +1,65 @@
+body {
+  margin: 20%;
+  background-color: cornflowerblue;
+}
+.Box {
+  background-color: white;
+  margin: 10%;
+  font-family: Arial;
+  box-shadow: 6px 12px 10px;
+}
+form {
+  padding: 5% 15% 5%;
+}
+h4 {
+  text-align: center;
+  background-color: royalblue;
+  font-family: Brush Script MT;
+  padding: 2%;
+  font-weight: bolder;
+  color: white;
+}
+.namaL,
+.namaP,
+.TTL,
+.JK,
+.J,
+.notelp,
+.agama,
+.hobi,
+.foto,
+.alasan {
+  padding-bottom: 5%;
+}
+input,
+select {
+  border-width: 0px;
+  height: 25px;
+  background-color: lightgray;
+}
+textarea {
+  background-color: lightgray;
+  border-width: 0px;
+}
+.D,
+.R {
+  height: 25px;
+  width: 200px;
+  border-width: 0px;
+  font-weight: bolder;
+}
+.D {
+  background-color: royalblue;
+  color: white;
+}
+.R {
+  background-color: red;
+  color: white;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0%;
+}

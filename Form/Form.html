@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="StyleForm.css" />
+  </head>
+  <body>
+    <div class="Box">
+      <h4>FORM PENDAFTARAN OSIS</h4>
+      <form>
+        <div class="namaL">
+          <label>Nama Lengkap</label><br /><input type="text" /><br />
+        </div>
+        <div class="namaP">
+          <label>Nama Panggilan</label><br /><input type="text" /><br />
+        </div>
+        <div class="TTL">
+          <label>Tempat Tanggal Lahir</label><br /><input type="text" /><input
+            type="date"
+          /><br />
+        </div>
+        <div class="JK">
+          <label>Jenis Kelamin</label><br />
+          <input type="radio" name="Jenis Kelamin" value="Pria" /><label
+            >Pria</label
+          >
+          <input type="radio" name="Jenis Kelamin" value="Wanita" /><label
+            >Wanita</label
+          ><br />
+        </div>
+        <div class="notelp">
+          <label>Nomor Telepon</label><br /><input type="number" /><br />
+        </div>
+        <div class="J">
+          <label>Jurusan</label><br />
+          <input type="radio" name="Jurusan" value="IPA" /><label>IPA</label>
+          <input type="radio" name="Jurusan" value="IPS" /><label>IPS</label
+          ><br />
+        </div>
+        <div class="agama">
+          <label>Agama</label><br /><select name="Agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option></select
+          ><br />
+        </div>
+        <div class="hobi">
+          <label>Hobi</label><br /><input type="text" /><br />
+        </div>
+        <div class="alasan">
+          <label>Alasan Motivasi Untuk Mendaftar</label><br />
+          <textarea name="alasan" cols="30" rows="10"></textarea>
+        </div>
+        <div class="foto">
+          <label>Foto</label><br /><input type="file" /><br />
+        </div>
+        <ul>
+          <li><button class="D">Daftar</button></li>
+          <li><button class="R">Reset</button></li>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
